@@ -74,7 +74,7 @@ while True:
 
 print("Downloading your file, please wait...")
 try:
-    open(str("/home/tyler/Downloads/YTDL/" + fname), "w+")
+    open(str("./" + fname), "w+")
     video_streams.download(filename = fname)
     print("Video downloaded successfully.")
     quit()
